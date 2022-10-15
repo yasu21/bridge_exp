@@ -1,0 +1,25 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+* {
+  text-transform: none !important;
+}
+
+.v-application,
+button {
+  font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans', 'ヒラギノ角ゴシック', YuGothic, 'Yu Gothic', 'メイリオ', Meiryo, 'MS PGothic' !important;
+}
+
+.theme--dark.v-application {
+  background: #090017 linear-gradient(80deg, rgb(217 51 137 / 40%) 0%, rgb(59 195 243 / 40%) 30%, rgb(15 255 135 / 40%) 100%);
+}
+
+.theme--dark.v-tabs > .v-tabs-bar {
+  background-color: rgb(0 0 0 / 0%) !important;
+}
+
+.card-background {
+  background-color: rgb(0 0 0 / 40%) !important;
+}

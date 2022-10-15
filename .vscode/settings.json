@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true, // 全体設定
+  //CSS
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": ["css", "scss", "vue"],
+  //JS,TS
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  //format
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true,
+    "source.fixAll.eslint": true
+  },
+  "workbench.editor.enablePreview": false // option
+}
