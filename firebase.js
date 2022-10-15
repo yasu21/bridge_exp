@@ -7,9 +7,9 @@ const app = initializeApp({
   apiKey: process.env.apiKey,
   authDomain: process.env.authDomain,
   projectId: process.env.projectId,
-  storageBucket: process.env.strageBucket,
-  messagingSenderId: process.env.storageBucket,
-  appId: process.env.senderId
+  storageBucket: process.env.storageBucket,
+  messagingSenderId: process.env.senderId,
+  appId: process.env.appId
 })
 
 const db = getFirestore(app)

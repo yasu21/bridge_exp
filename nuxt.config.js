@@ -80,9 +80,9 @@ export default {
     apiKey: process.env.APIKEY,
     authDomain: process.env.AUTHDOMAIN,
     projectId: process.env.PROJECTID,
-    strageBucket: process.env.STORAGEBUCKET,
-    senderID: process.env.SENDERID,
-    apiId: process.env.APPID
+    storageBucket: process.env.STORAGEBUCKET,
+    senderId: process.env.SENDERID,
+    appId: process.env.APPID
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
