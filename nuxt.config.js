@@ -77,12 +77,12 @@ export default {
   },
 
   env: {
-    apiKey: process.env.APIKEY,
-    authDomain: process.env.AUTHDOMAIN,
-    projectId: process.env.PROJECTID,
-    storageBucket: process.env.STORAGEBUCKET,
-    senderId: process.env.SENDERID,
-    appId: process.env.APPID
+    APIKEY: process.env.APIKEY,
+    AUTHDOMAIN: process.env.AUTHDOMAIN,
+    PROJECTID: process.env.PROJECTID,
+    STORAGEBUCKET: process.env.STORAGEBUCKET,
+    SENDERID: process.env.SENDERID,
+    APPID: process.env.APPID
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
